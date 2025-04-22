@@ -25,7 +25,7 @@ const Clients = () => {
         setSwiper(swiperInstance);
     };
     return (
-        <div className="w-full py-12 bg-gray-50">
+        <div className="w-full py-12">
             <div className="container mx-auto px-4">
                 <h2 className="text-5xl font-medium text-left mb-12">Avis Clients</h2>
                 <div className="relative">
@@ -55,7 +55,7 @@ const Clients = () => {
                         {CLIENTS_DATA.map((testimonial, index) => (
                             <SwiperSlide key={index}>
                                 <div className="bg-white rounded-2xl shadow-md p-6 h-full flex flex-col justify-center items-center">
-                                    <div className="text-left text-gray-700">
+                                    <div className="text-left text-gray-700 ">
                                         <Image src="/assets/images/svg/commma.svg" alt='comma' width={62} height={62} />
                                         <Image src="/assets/images/svg/5star.svg" alt='comma' width={172} height={28} />
                                         <p className='font-semibold text-[22px] leading-[140%] py-3'>La meilleure pizza de la ville !</p>

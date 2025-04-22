@@ -1,5 +1,4 @@
 'use client';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
@@ -9,7 +8,7 @@ import Image from 'next/image';
 
 const PizzaSlider = () => {
     return (
-        <div className="w-full bg-white flex items-center gap-6 overflow-x-hidden max-w-[1920px] mx-auto ">
+        <div className="w-full  flex items-center gap-6 overflow-x-hidden max-w-[1920px] mx-auto ">
             <div className="lg:min-w-[550px] md:min-w-[300px] min-w-[150px] h-full overflow-hidden">
                 <Image
                     src="/assets/images/png/pizza-fix-image.png"
